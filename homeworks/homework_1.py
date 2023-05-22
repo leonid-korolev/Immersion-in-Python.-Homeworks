@@ -27,7 +27,7 @@ while True:
 '''
 Задание №9
 Выведите в консоль таблицу умножения от 2х2 до 9х10 как на школьной тетрадке.
-'''
+# '''
 for i in range(2,11):
     for j in range(2,6):
         print(f'{j} * {i} ={i * j:4}\t', end=' ')
@@ -109,7 +109,7 @@ num = randint(LOWER_LIMIT, UPPER_LIMIT)
 number = None
 count = 10
 
-print('Угадайте число от 0 до 1000:' )
+print(f'Угадайте число от {LOWER_LIMIT} до {UPPER_LIMIT}:' )
 while number != num:
     number = input('Введите число: ')
     if not number.isdigit():
@@ -117,7 +117,7 @@ while number != num:
     else:
         number = int(number)
         if number > UPPER_LIMIT:
-            print('Число должно быть в диапазоне от 0 до 1000')
+            print(f'Число должно быть в диапазоне от {LOWER_LIMIT} до {UPPER_LIMIT}')
         elif number > num:
             print('Загаданное число меньше.')
         elif number < num:
