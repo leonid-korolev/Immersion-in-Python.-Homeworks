@@ -9,6 +9,7 @@ while True:
         N = int(input('Введите целое число: '))
         hex_string = hex(N)
         
+        
         if N < 0:
             N *= -1       
         while N >= 1:
@@ -16,7 +17,7 @@ while True:
             result += str(res)
             N = N // 16
         
-        print(f'Шестнадцатеричное  представление - {result[::-1]}, "hex({N}) = {hex_string}"')
+        print(f'Шестнадцатеричное  представление - {result[::-1]}, {hex_string} ')
         break
     except:
         print('Неверный ввод')
