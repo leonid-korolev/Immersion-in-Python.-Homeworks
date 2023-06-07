@@ -18,6 +18,6 @@ def random_coord():
             print(f'[{new_x}, {new_y}]')
         i += 1 
     
-    return x,y
+    return x, y
 
 
