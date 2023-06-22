@@ -1,0 +1,26 @@
+{
+  "C:\\Users\\leonk\\Desktop\\Geekbrains\\Python Testing Automation\\Lessons\\homeworks": {
+    "unit_type": "Directory",
+    "unit_name": "homework_7",
+    "unit_size": 22691,
+    "parent_dir": "homeworks"
+  },
+  "homeworks/homework_7": {
+    "unit_type": "Directory",
+    "unit_name": "test_dir",
+    "unit_size": 0,
+    "parent_dir": "homework_7"
+  },
+  "homeworks/homework_7\\tasks_with_files": {
+    "unit_type": "File",
+    "unit_name": "__init__.py",
+    "unit_size": 0,
+    "parent_dir": "tasks_with_files"
+  },
+  "homeworks/homework_7\\test_dir": {
+    "unit_type": "File",
+    "unit_name": "not_replacement_03.xls",
+    "unit_size": 0,
+    "parent_dir": "test_dir"
+  }
+}

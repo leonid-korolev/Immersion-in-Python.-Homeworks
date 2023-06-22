@@ -1,0 +1,5 @@
+Basic_path;unit_type;unit_name;unit_size; parent_dir
+C:\Users\leonk\Desktop\Geekbrains\Python Testing Automation\Lessons\homeworks;Directory;homework_7;22691;homeworks
+homeworks/homework_7;Directory;test_dir;0;homework_7
+homeworks/homework_7\tasks_with_files;File;__init__.py;0;tasks_with_files
+homeworks/homework_7\test_dir;File;not_replacement_03.xls;0;test_dir
