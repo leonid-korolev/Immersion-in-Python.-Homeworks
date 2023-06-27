@@ -13,6 +13,7 @@ json_path = os.path.join(file_path, 'solutions.json')
 def solve_csv(func: Callable):
     create_csv_file()
 
+    
     def wrapper():
         with open(csv_path, 'r', encoding='UTF-8') as file:
             data = csv.reader(file, quoting=csv.QUOTE_NONNUMERIC)
@@ -32,7 +33,7 @@ def json_result(func: Callable):
         res_key = f'{datetime.datetime.now()}'[:-7]
         result[res_key] = result.get(res_key) + [solve_dict] if result.get(res_key) else [solve_dict]
         with open(json_path, 'w', encoding='UTF-8') as file:
-            json.dump(result, file)
+            json.dump(result, file, indent=2)
         return roots
     return wrapper
 
